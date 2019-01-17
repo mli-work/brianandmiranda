@@ -20,6 +20,16 @@
       body {
         margin: 0;
       }
+      .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
 
     </style>
   </head>
@@ -33,11 +43,14 @@
       WELCOME TO OUR BLOG!
     </h2>
     
-    <table>
-      <tr>
-        <td> <img src="Pictures/IMG_0420.JPG" alt="hi" style="width:50%; height:451px;"/> </td>
-        <td> <img src="Pictures/IMG_0420.JPG" alt="hi" style="width:50%; height:451px;"/> </td>
-      </tr>
-    </table>
+    <div class="row">
+      <div class="column">
+        <img src="Pictures/IMG_0420.JPG" alt="hi" style="width:100%">
+     </div>
+     <div class="column">
+        <img src="Pictures/IMG_0420.JPG" alt="hi" style="width:100%">
+      </div>
+    </div>
+
   </body>
 </html>
