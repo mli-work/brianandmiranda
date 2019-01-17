@@ -1,4 +1,4 @@
-# brian and miranda's blog
+# brian and miranda
 we just have pictures here documenting our adventures!
 
 TO DO
