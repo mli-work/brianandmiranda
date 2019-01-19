@@ -5,7 +5,7 @@ we just have pictures here documenting our adventures!
 https://meer-anduh.github.io/brianandmiranda/
 
 
-TO DO
+# TO DO
   1. Create a search function, where we can search dates or places
       
       a) Place search bar next to "about"
